@@ -1,0 +1,25 @@
+{
+  "name": "lite-exp",
+  "version": "1.0.0",
+  "description": "An app that let you download files from android browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/txchen/lite-exp.git"
+  },
+  "keywords": [
+    "explorer",
+    "download",
+    "index",
+    "android"
+  ],
+  "author": "Tianxiang Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/txchen/lite-exp/issues"
+  },
+  "homepage": "https://github.com/txchen/lite-exp#readme"
+}
