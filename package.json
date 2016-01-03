@@ -4,9 +4,11 @@
   "description": "An app that let you download files from android browser.",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=dev nodemon --watch lib -e js,es6 index.js -c config.json | bunyan -o short",
-    "lint": "eslint lib/*",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "NODE_ENV=dev nodemon --watch lib -e js index.js -c config.json | bunyan -o short",
+    "lint": "eslint lib/*"
+  },
+  "bin": {
+    "lite-exp": "./index.js",
   },
   "repository": {
     "type": "git",
