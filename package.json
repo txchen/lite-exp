@@ -4,6 +4,8 @@
   "description": "An app that let you download files from android browser.",
   "main": "index.js",
   "scripts": {
+    "dev": "NODE_ENV=dev nodemon --watch lib -e js,es6 index.js -c config.json | bunyan -o short",
+    "lint": "eslint lib/*",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -31,9 +33,11 @@
     "babel-register": "^6.3.13",
     "commander": "^2.9.0",
     "express": "^4.13.3",
-    "express-bunyan-logger": "^1.2.0"
+    "express-bunyan-logger": "^1.2.0",
+    "serve-index": "^1.7.2"
   },
   "devDependencies": {
+    "babel-eslint": "^4.1.6",
     "eslint": "^1.10.3",
     "eslint-config-airbnb": "^2.1.1",
     "nodemon": "^1.8.1"
