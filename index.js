@@ -2,9 +2,8 @@
 /* eslint-disable */
 
 // entry point, do not use ES6 syntax here in this file, so that 'node' can launch this.
-require('babel-polyfill')
 require('babel-register')({
-  presets: ['es2015', 'stage-0'],
+  presets: ['es2015'],
   ignore: /lite-exp\/node_modules/
 })
 
