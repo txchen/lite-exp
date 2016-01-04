@@ -1,6 +1,6 @@
 {
   "name": "lite-exp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An app that let you download files from android browser.",
   "main": "index.js",
   "scripts": {
