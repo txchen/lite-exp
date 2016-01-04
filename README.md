@@ -36,3 +36,11 @@ Now we can run it:
 ```bash
 $ lite-exp -c config.json
 ```
+
+## Embed credential in url
+
+Username and password can be passed through query like:
+
+```
+http://mysexydomain.com/folder1/file2?u=xxx&p=yyy
+```
