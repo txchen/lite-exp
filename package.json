@@ -39,8 +39,8 @@
     "serve-index": "^1.7.2"
   },
   "devDependencies": {
-    "eslint": "^1.10.3",
-    "eslint-config-airbnb": "^2.1.1",
+    "eslint": "^2.2.0",
+    "eslint-config-airbnb": "^6.0.2",
     "nodemon": "^1.8.1"
   }
 }
